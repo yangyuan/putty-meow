@@ -120,7 +120,6 @@
     <ClCompile Include="..\..\putty-src\WINDOWS\WINGSS.C" />
     <ClCompile Include="..\..\putty-src\WINDOWS\WINHANDL.C" />
     <ClCompile Include="..\..\putty-src\WINDOWS\WINHELP.C" />
-    <ClCompile Include="..\..\putty-src\WINDOWS\WINJUMP.C" />
     <ClCompile Include="..\..\putty-src\WINDOWS\WINMISC.C" />
     <ClCompile Include="..\..\putty-src\WINDOWS\WINNET.C" />
     <ClCompile Include="..\..\putty-src\WINDOWS\WINNOISE.C" />
@@ -128,15 +127,18 @@
     <ClCompile Include="..\..\putty-src\WINDOWS\WINPRINT.C" />
     <ClCompile Include="..\..\putty-src\WINDOWS\WINPROXY.C" />
     <ClCompile Include="..\..\putty-src\WINDOWS\WINSER.C" />
-    <ClCompile Include="..\..\putty-src\WINDOWS\WINSTORE.C" />
     <ClCompile Include="..\..\putty-src\WINDOWS\WINTIME.C" />
     <ClCompile Include="..\..\putty-src\WINDOWS\WINUCS.C" />
     <ClCompile Include="..\..\putty-src\WINDOWS\WINUTILS.C" />
     <ClCompile Include="..\..\putty-src\WINDOWS\WINX11.C" />
     <ClCompile Include="..\..\putty-src\X11FWD.C" />
+    <ClCompile Include="_WINSTORE.C" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="..\..\putty-src\WINDOWS\PUTTY.RC" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dirent.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

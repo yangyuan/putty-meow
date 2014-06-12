@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\putty-src\BE_ALL_S.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\CMDLINE.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\CONF.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\CONFIG.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\CPROXY.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\DIALOG.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\LDISC.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\LDISCUCS.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\LOGGING.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\MINIBIDI.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\MISC.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\PGSSAPI.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\PINGER.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\PORTFWD.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\PROXY.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\RAW.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\RLOGIN.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\SERCFG.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\SETTINGS.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\WINDOWS\SIZETIP.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\SSH.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\SSHAES.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\SSHARCF.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\SSHBLOWF.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\SSHBN.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\SSHCRC.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\SSHCRCDA.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\SSHDES.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\SSHDH.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\SSHDSS.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\SSHGSSC.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\SSHMD5.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\SSHPUBK.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\SSHRAND.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\SSHRSA.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\SSHSH256.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\SSHSH512.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\SSHSHA.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\SSHZLIB.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\TELNET.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\TERMINAL.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\TIMING.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\TREE234.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\VERSION.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\WCWIDTH.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\WILDCARD.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\X11FWD.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\WINDOWS\WINCFG.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\WINDOWS\WINCTRLS.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\WINDOWS\WINDEFS.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\WINDOWS\WINDLG.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\WINDOWS\WINDOW.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\WINDOWS\WINGSS.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\WINDOWS\WINHANDL.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\WINDOWS\WINHELP.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\WINDOWS\WINJUMP.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\WINDOWS\WINMISC.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\WINDOWS\WINNET.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\WINDOWS\WINNOISE.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\WINDOWS\WINPGNTC.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\WINDOWS\WINPRINT.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\WINDOWS\WINPROXY.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\WINDOWS\WINSER.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\WINDOWS\WINSTORE.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\WINDOWS\WINTIME.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\WINDOWS\WINUCS.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\WINDOWS\WINUTILS.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\putty-src\WINDOWS\WINX11.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\putty-src\WINDOWS\PUTTY.RC">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

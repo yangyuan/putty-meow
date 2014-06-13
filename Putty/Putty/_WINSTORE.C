@@ -646,7 +646,7 @@ void store_host_key(const char *hostname, int port,
 
     fclose(wfp);
 
-    if (rename(tmpfilename, filename) < 0) {
+	if (MoveFileEx(tmpfilename, filename, MOVEFILE_REPLACE_EXISTING) == 0) {
         char *msg = dupprintf("Unable to store host key: rename(\"%s\",\"%s\")"
                               " returned '%s'", tmpfilename, filename,
                               strerror(errno));

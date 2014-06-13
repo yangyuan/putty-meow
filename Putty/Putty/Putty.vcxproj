@@ -139,6 +139,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dirent.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\putty-src\WINDOWS\putty.ico" />
+    <Image Include="..\..\putty-src\WINDOWS\puttycfg.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

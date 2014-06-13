@@ -226,5 +226,16 @@
     <ClInclude Include="dirent.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\putty-src\WINDOWS\putty.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\putty-src\WINDOWS\puttycfg.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>

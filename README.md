@@ -3,6 +3,9 @@ putty-meow
 
 Take some small changes to putty to make it more um... hommization?
 
+中文细节描述 http://yangyuan.duapp.com/post.php?id=1047
+
+
 ## Putty
 original source version 0.63
 

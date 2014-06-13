@@ -8,8 +8,8 @@ original version 0.63
 
 ## Changes
 use local file as config storage
-Ê¹ÓÃ±¾µØÎÄ¼ş×÷ÎªÅäÖÃ´æ´¢
+ä½¿ç”¨æœ¬åœ°æ–‡ä»¶ä½œä¸ºé…ç½®å­˜å‚¨
 use Consolas (size 9) ad default font
-Ê¹ÓÃ9ÏñËØConsolas×÷ÎªÄ¬ÈÏ×ÖÌå
+ä½¿ç”¨9åƒç´ Consolasä½œä¸ºé»˜è®¤å­—ä½“
 replace right click auto paste to context menu, copy still work. 
-ÓÊ¼şÄ¬ÈÏÎª¸´ÖÆ+µ¯³ö²Ëµ¥£¨Ô­Îª¸´ÖÆ+Õ³Ìù£©
+é‚®ä»¶é»˜è®¤ä¸ºå¤åˆ¶+å¼¹å‡ºèœå•ï¼ˆåŸä¸ºå¤åˆ¶+ç²˜è´´ï¼‰

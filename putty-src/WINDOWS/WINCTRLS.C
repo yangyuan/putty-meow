@@ -1921,7 +1921,7 @@ int winctrl_handle_command(struct dlgparam *dp, UINT msg,
 	    of.lpstrFileTitle = NULL;
 	    of.lpstrTitle = ctrl->fileselect.title;
 	    of.Flags = 0;
-	    if (request_file(NULL, &of, FALSE, ctrl->fileselect.for_writing)) {
+	    if (request_file(NULL, &of, TRUE, ctrl->fileselect.for_writing)) {
 		SetDlgItemText(dp->hwnd, c->base_id + 1, filename);
 		ctrl->generic.handler(ctrl, dp, dp->data, EVENT_VALCHANGE);
 	    }
